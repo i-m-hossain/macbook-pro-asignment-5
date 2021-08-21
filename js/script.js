@@ -60,8 +60,6 @@ document.getElementById("promo-apply").addEventListener('click', function(){
         const grandTotal = document.getElementById("grand-total");
         grandTotal.innerText = Math.round(totalAfterPromo);
         promoCode.value=''
-    }else{
-        promoCode.value=''
     }
 })
 
