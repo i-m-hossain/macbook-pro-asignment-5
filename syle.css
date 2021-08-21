@@ -1,0 +1,7 @@
+.button-hover:hover{
+    background-color: black;
+    color: white;
+}
+.button-hover:focus{
+    border: 3px solid black;
+}
