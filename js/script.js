@@ -36,3 +36,12 @@ document.getElementById("512gb").addEventListener("click", function(){
 document.getElementById("1tb").addEventListener("click", function(){
     calculateItem("storage-cost",180)
 })
+document.getElementById("1tb").addEventListener("click", function(){
+    calculateItem("storage-cost",180)
+})
+document.getElementById("frre-delivery").addEventListener("click", function(){
+    calculateItem("delivery-cost",0)
+})
+document.getElementById("delivery-with-cost").addEventListener("click", function(){
+    calculateItem("delivery-cost",20)
+})
