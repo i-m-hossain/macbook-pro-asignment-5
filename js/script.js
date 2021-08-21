@@ -27,3 +27,12 @@ document.getElementById("8gb").addEventListener('click', function(){
 document.getElementById("16gb").addEventListener("click", function(){
     calculateItem("memory-cost",180)
 })
+document.getElementById("256gb").addEventListener("click", function(){
+    calculateItem("storage-cost",0)
+})
+document.getElementById("512gb").addEventListener("click", function(){
+    calculateItem("storage-cost",100)
+})
+document.getElementById("1tb").addEventListener("click", function(){
+    calculateItem("storage-cost",180)
+})
